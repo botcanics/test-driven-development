@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.tdd.example</groupId>
+    <artifactId>test-driven-software-development</artifactId>
+    <version>1.0.0.BUILD-SNAPSHOT</version>
+  </parent>
+  <artifactId>unit-testing</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Unit Testing</name>
+  <description>
+    The Unit Testing project...
+  </description>
+  <url>http://www.codeprimate.org/documentation/test-driven-development/unit-testing</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.tdd.example</groupId>
+      <artifactId>tdd-core</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.tdd.example</groupId>
+    <artifactId>test-driven-software-development</artifactId>
+    <version>1.0.0.BUILD-SNAPSHOT</version>
+  </parent>
+  <artifactId>integration-testing</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Integration Testing</name>
+  <description>
+    The Integration Testing project...
+  </description>
+  <url>http://www.codeprimate.org/documentation/test-driven-development/integration-testing</url>
+
+  <properties>
+    <gemfire.version>8.2.0</gemfire.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.tdd.example</groupId>
+      <artifactId>tdd-core</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.tdd.example</groupId>
+      <artifactId>unit-testing-with-mocks</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.gemstone.gemfire</groupId>
+      <artifactId>gemfire</artifactId>
+      <version>${gemfire.version}</version>
+    </dependency>
+  </dependencies>
+
+</project>
