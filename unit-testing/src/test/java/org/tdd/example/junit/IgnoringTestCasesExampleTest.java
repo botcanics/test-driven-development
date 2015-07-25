@@ -14,7 +14,7 @@ import org.tdd.junit.rules.ConditionalIgnoreRule;
  * @author John Blum
  * @see org.junit.Ignore
  * @see org.junit.Test
- * @since 1.7.0
+ * @since 1.0.0
  */
 public class IgnoringTestCasesExampleTest {
 

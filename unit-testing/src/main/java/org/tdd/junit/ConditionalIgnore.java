@@ -9,9 +9,12 @@ import java.lang.annotation.Target;
 import org.tdd.junit.support.DefaultIgnoreCondition;
 
 /**
- * The ConditionalIgnore class...
+ * The ConditionalIgnore class is a Java Annotation used to annotated a test suite class test case method in order to
+ * conditionally ignore the test case for a fixed amount of time, or based on a predetermined condition provided by
+ * the IgnoreCondition interface.
  *
  * @author John Blum
+ * @see java.lang.annotation.Annotation
  * @see org.tdd.junit.IgnoreCondition
  * @see org.tdd.junit.support.DefaultIgnoreCondition
  * @since 1.0.0
