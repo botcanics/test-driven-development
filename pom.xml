@@ -11,7 +11,9 @@
   <packaging>pom</packaging>
 
   <modules>
+  <!--
     <module>integration-testing</module>
+-->
     <module>tdd-core</module>
     <module>unit-testing</module>
     <module>unit-testing-with-mocks</module>
